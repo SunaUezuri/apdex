@@ -2,9 +2,11 @@ package org.example;
 
 public class Apdex {
 
-    public double calcularApdex(int satisfatorios, int toleraveis, int total) {
-        if (total == 0) return 0;
-        return (satisfatorios + (toleraveis / 2.0)) / total;
+    public double calcularApdex(int s, int to, int ta) {
+        if (ta == 0) return 0;
+
+
+
+        return (s + (to / 2.0)) / ta;
     }
 }
-
