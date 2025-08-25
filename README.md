@@ -291,13 +291,6 @@ public class Apdex {
 - **Setup individual** com `@BeforeEach`
 - **Documentação completa** para estudo
 
-## 🚨 Tratamento de Erros
-
-### **Validações Implementadas:**
-- Divisão por zero (total = 0)
-- Valores negativos (não tratados explicitamente)
-- Overflow de inteiros (considerado em testes)
-
 ### **Tolerância nos Asserts:**
 ```java
 assertEquals(0.9, apdexBom, 0.01);
@@ -330,11 +323,6 @@ assertEquals(0.9, apdexBom, 0.01);
     </dependency>
 </dependencies>
 ```
-
-### **Plugins:**
-- **Surefire**: Execução de testes
-- **Compiler**: Compilação Java
-- **Exec**: Execução da aplicação
 
 ## 🌟 Casos de Uso Reais
 
@@ -393,5 +381,3 @@ Este projeto demonstra a implementação completa de:
 - ✅ **Boas práticas** de desenvolvimento e testes
 - ✅ **Documentação completa** para fins educacionais
 - ✅ **Cobertura total** de cenários de teste
-
-**Resultado final**: Sistema robusto e bem testado para cálculo de métricas de performance, servindo como referência para implementações similares em projetos reais.
